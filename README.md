@@ -116,9 +116,10 @@ If every byte matters this can easily be re-written like this:
 This presents a problem however if you're used to the more normal 
 JSON format. You no longer have a static class name for color, 
 just the color itself. The field name for color is dynamic, 
-it’s the name of the “color”. In other words, we won’t know the property name until runtime.
-This is a problem because while I could hard code the color it means I would be constantly 
-changing my code to accommodate new colors.
+it’s the name of the “color”. In other words, we won’t know the 
+property name until runtime. This is a problem. I could hard 
+code the color but it means I would be constantly changing my 
+code to accommodate new colors.
 Fortunately JSON.net has a way to deal with this using the 
 Dictionary object in the form of `Dictionary<string, Class>`. 
 The tricky part is figuring out how the classes line up, 
