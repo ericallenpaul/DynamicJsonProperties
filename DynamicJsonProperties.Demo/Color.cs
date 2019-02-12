@@ -16,7 +16,7 @@ namespace DynamicJsonProperties.Demo
         public string Category { get; set; }
 
         [JsonProperty("type", NullValueHandling = NullValueHandling.Ignore)]
-        public string Type { get; set; }
+        public string Type { get; set; } = "N/A";
 
         [JsonProperty("code")]
         public Code Code { get; set; }
