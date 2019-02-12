@@ -76,7 +76,7 @@ public partial class Code
 }
 ```
 
-In truth, the `"color": "red",` wastes a few bytes because `"color:"` is actually unecessary.
+In truth, the `"color": "red",` wastes a few bytes because `"color:"` is actually unnecessary.
 If every byte matters this can easily be re-written like this:
 
 ```JSON
